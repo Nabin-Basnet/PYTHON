@@ -1,4 +1,4 @@
-def greet(fxgit):
+def greet(fx):
     def mfx():
         print("good morning")
         fx()
