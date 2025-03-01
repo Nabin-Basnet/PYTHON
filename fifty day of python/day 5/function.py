@@ -1,7 +1,7 @@
-def my_function():
+def my_functionn():
   print("Hello from a function")
 
-my_function()
+my_functionn()
 
 
 def my_function(fname):
@@ -10,3 +10,9 @@ def my_function(fname):
 my_function("Emil")
 my_function("Tobias")
 my_function("Linus")
+
+
+def myy_function(fname, lname):
+  print(fname + " " + lname)
+
+myy_function("Emil")
