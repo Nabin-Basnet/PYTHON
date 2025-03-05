@@ -17,3 +17,11 @@ x.detail()
 
 # here we create the class name students inherating the property of person
 
+class students(person):
+    def intro(self):
+        print(f"my name is {self.name} . \
+i am {self.age} years old.i live in {self.address}")
+
+y=students("nishan",23,"laxmimargha")
+y.intro()
+
