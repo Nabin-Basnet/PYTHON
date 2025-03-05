@@ -32,7 +32,7 @@ print(p1.age)
 # It does not have to be named self, you can call it whatever you 
 # like, but it has to be the first parameter of any function in the class:   
 class Persons:
-  def __init__(mysillyobject, name, age):
+  def __init__(mysillyobject, name, age):  #__init__ function will always executed no matter whether it is call or not 
     mysillyobject.name = name
     mysillyobject.age = age
 
