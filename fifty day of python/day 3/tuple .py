@@ -66,3 +66,4 @@ print(tuplee)
 print("\n\njoining tuple")
 newtuple=tuplee+tuplenum
 print(newtuple)
+# print(newtuple.short())

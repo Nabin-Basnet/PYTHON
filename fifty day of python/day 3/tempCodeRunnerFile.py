@@ -1,2 +1,3 @@
-if b > a:
-#   pass
+print(nested)
+for x in nested:
+    print(nested[x])

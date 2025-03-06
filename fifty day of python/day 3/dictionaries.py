@@ -81,7 +81,7 @@ nested={
         "name":"nishan",
         "age":23
     },
-    "chid3":{
+    "child3":{
         "name":"nischal",
         "age":19
     }
@@ -89,3 +89,5 @@ nested={
 print(nested)
 for x in nested:
     print(nested[x])
+
+print(nested["child1"])

@@ -19,8 +19,7 @@ x.detail()
 
 class students(person):
     def intro(self):
-        print(f"my name is {self.name} . \
-i am {self.age} years old.i live in {self.address}")
+        print(f"my name is {self.name} . i am {self.age} years old.i live in {self.address}")
 
 y=students("nishan",23,"laxmimargha")
 y.intro()
