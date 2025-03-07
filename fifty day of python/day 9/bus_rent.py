@@ -22,11 +22,25 @@ seat=input("did you get seat if yes say enter y: ")
 #     else:
 #         print("your rent = 50")
 
+# if age<=10:
+#     rent=50
+# elif age>10 and age<=19:
+#     rent=100
+# elif age>20 and age<=59:
+#     rent=200
+# else:
+#     rent=50
+
+# if seat=="y":
+#     rent=rent+50
+
+# print(f"your bus rent is {rent}")
+
 if age<=10:
     rent=50
-elif age>10 and age<=19:
+elif 10 < age <=19:
     rent=100
-elif age>20 and age<=59:
+elif 20< age<=59:
     rent=200
 else:
     rent=50
@@ -34,6 +48,6 @@ else:
 if seat=="y":
     rent=rent+50
 
-print(rent)
+print(f"your bus rent is {rent}")
 
 
