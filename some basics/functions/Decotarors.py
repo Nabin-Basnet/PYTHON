@@ -35,3 +35,16 @@ def question():
     print("what about you?")
 
 question()
+
+def calculate(fun):
+    def sum(a,b):
+        print(f"sum is {a+b}")
+        fun()
+    return sum
+
+@calculate
+def explain():
+    print("here we did sum")
+
+
+explain(3,2)
