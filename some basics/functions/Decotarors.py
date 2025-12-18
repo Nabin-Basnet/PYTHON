@@ -15,3 +15,23 @@ def finalgreet():
     print("how are you")
 
 finalgreet()
+
+#multiple decorators
+
+def greet(func):
+    def dogreet():
+        print("Namastey !")
+    func()
+    return dogreet
+@greet
+def intro():
+    print("mero nam nabin basnet ho.")
+
+
+intro()
+    
+@greet
+def question():
+    print("what about you?")
+
+question()
